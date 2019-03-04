@@ -1,0 +1,46 @@
+html, body {
+
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#top {
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#NAGLOWEK {
+	background-color: lightgreen;
+}
+
+#MENU {
+    background-color: purple;
+	width: 20%;
+	float: right;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+#INFORMACJE {
+	width: 20%px;
+	float: left;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+#TRESC {
+	width: 60%;
+	float: left;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+#STOPKA {
+	clear: both;
+	width: 100%;
+	background-color: #888;
+}

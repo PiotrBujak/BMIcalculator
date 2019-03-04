@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<HTML>
+<HEAD>
+    <meta charset="UTF-8">
+</HEAD>
+    <BODY bgcolor="lightgreen">
+    <a href="calculator.html">Kalkulator BMI</a>
+    <h1>Kalkulator dziennego zapotrzebowania kalorycznego</h1>
+
+    <form action = "/body2">
+        <label>Podaj płeć:<br></label>
+        Kobieta
+        <input type="radio" name="sex" value="woman">
+        Mężczyzna
+        <input type="radio" name="sex" value="man">
+        <br>
+        <label>Podaj wagę:</label>
+        <input type="text" name="weight">
+        <br>
+        <label>Podaj wzrost:</label>
+        <input type="text" name="height">
+        <br>
+        <label>Podaj wiek:</label>
+        <input type="text" name="age">
+        <br>
+        <label>Dzienna aktywność fizyczna</label>
+        <select name="activity">
+            <option>Mała aktywność fizyczna</option>
+            <option>Średnia aktywność fizyczna</option>
+            <option>Duża aktywność fizyczna</option>
+        </select>
+        <br>
+        <input type="submit" value="Wyślij">
+    </form>
+
+    Wzór na PPM dla mężczyzny
+
+    PPM [kcal] = 88,362 + [13,397 × M (kg)] + [4,799 × W (cm)] – [5,677 × L (lata)]
+
+
+
+    Wzór na PPM dla kobiety
+
+    PPM [kcal] = 447,593 + [9,247 × M (kg)] + [3,098 × W (cm)] – [4,33 × L (lata)]
+
+
+    </BODY>
+</HTML>
